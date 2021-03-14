@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "org.tyaa.demo.java.jhipster.angular",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "monolith",
+    "baseName": "demojhipsterangular",
+    "packageName": "org.tyaa.demo.java.jhipster.angular",
+    "packageFolder": "org/tyaa/demo/java/jhipster/angular",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MWFiNWUxNzNjNDUzYzYzZjYxZjI5YmQ0MTdmZDdmMWQwYWIwZWFmYjVjYzY2ZjYxOWIzOWE0MmE0YzYzMmQzZjc0MGQzMzJlOGYwMWUzYmM3YWNiOTNkNmZlOTNlYmM4NzY0NDMxMjJmZTE4NTQ5NzI5OTM4ZjAxMDQwZWNmM2Q=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "flatly",
+    "clientThemeVariant": "light",
+    "creationTimestamp": 1615719658704,
+    "testFrameworks": ["gatling", "cucumber", "protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "ru", "ua"],
+    "blueprints": [],
+    "reactive": true
+  }
+}
