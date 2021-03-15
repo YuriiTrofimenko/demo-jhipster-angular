@@ -50,9 +50,10 @@ spring:
   messages:
     cache-duration: PT1S # 1 second, see the ISO 8601 standard
   r2dbc:
-    url: r2dbc:h2:mem://demojhipsterangular?options=DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
-    username: demojhipsterangular
+    url: r2dbc:h2:mem://jhipster?options=DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: jhipster
     password:
+    name: jhipster
   thymeleaf:
     cache: false
 
